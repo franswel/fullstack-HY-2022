@@ -1,5 +1,7 @@
 import axios from 'axios'
+//const baseUrl = '/api/persons'
 const baseUrl = 'http://localhost:3001/persons'
+// One used enabled for part2, commented one in part3 with mongodb
 
 const getAll = () => {
   const request = axios.get(baseUrl)
